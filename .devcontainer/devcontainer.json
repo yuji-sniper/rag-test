@@ -1,0 +1,23 @@
+{
+	"name": "rag-test",
+
+	"dockerComposeFile": [
+		"../compose.yml",
+		"compose.yml"
+	],
+
+	"service": "app",
+
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"donjayamanne.python-extension-pack",
+				"ms-azuretools.vscode-docker",
+				"aaron-bond.better-comments",
+				"GitHub.copilot"
+			]
+		}
+	}
+}
